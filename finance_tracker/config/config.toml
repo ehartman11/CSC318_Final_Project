@@ -1,0 +1,10 @@
+[app]
+env = "dev"
+
+[database]
+url = "sqlite:///./finance.db"
+echo = false
+
+[logging]
+level = "INFO"
+file  = "app.log"
